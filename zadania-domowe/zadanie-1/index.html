@@ -9,32 +9,31 @@
 <body>
     <form action="https://formspree.io/makenzen@gmail.com" method="post">
         <p>ZAPISZ SIĘ NA SZKOLENIE</p>
-        <p>(co Ci szkodzi :-))</p>
 
-        <label for=Imię>Imię:</label><br>
-        <input type=text name=Imię ID=Imię><br>
+        <label for="imie">Imię:</label><br>
+        <input type="text" name="imie" id="imie"><br>
 
         <br>       
        
-        <label for=Nazwisko>Nazwisko:</label><br>
-        <input type=text name=Nazwisko ID=Nazwisko><br>
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
 
-        <p>Wybierz płeć</p>
+        <p>Wybierz płeć:</p>
 
-        <input type=radio id=man name=gender><label for=man>Mężczyzna</label><br>
-        <input type=radio id=woman name=gender><label for=woman>Kobieta</label><br>
+        <input type="radio" id="man" name="gender"><label for="man">Mężczyzna</label><br>
+        <input type="radio" id="woman" name="gender"><label for="woman">Kobieta</label><br>
 
         <br>
 
-        <label for=email>E-mail:</label><br>
-        <input type="email" name=E-mail id=email><br>
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="e-mail" id="email"><br>
         
         <br>
 
-        <label for=tel>Numer telefonu</label><br>
-        <input type=tel name=tel id=tel><br>
+        <label for="tel">Numer telefonu:</label><br>
+        <input type="tel" name="tel" id="tel"><br>
 
-        <p>Wybierz miasto, w którym chcesz odbyć szkolenie</p>
+        <p>Wybierz miasto, w którym chcesz odbyć szkolenie:</p>
         <select>
             <option value="opcja1">Warszawa</option>
             <option value="opcja2">Kraków</option>
@@ -42,16 +41,16 @@
         </select><br>
         <br>
 
-        <label for=wiadomosc>Jeśli masz jakieś pytania, napisz:</label><br>
+        <label for="wiadomosc">Jeśli masz jakieś pytania, napisz:</label><br>
         <br>
-        <textarea name=wiadomosc id=wiadomosc></textarea><br>
+        <textarea name="wiadomosc" id="wiadomosc"></textarea><br>
         <br>
 
-        <input type=checkbox name=zgoda id=zgoda><label for=zgoda>Wyrażam zgodę na przetwarzanie danych osobowych w celach wiadomych :-)</label>
+        <input type="checkbox" name="zgoda" id="zgoda"><label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych w celach marketingowych</label>
         
         <br>
         <br>
-        <input type=submit value=Wyślij>
+        <input type="submit" value="Wyślij">
 
 
     </form>
