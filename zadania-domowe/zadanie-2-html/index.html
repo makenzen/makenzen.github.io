@@ -7,23 +7,28 @@
 </head>
 
 <body>
-    <form action="" method="get">
-        <p>A simple form</p><br>
-        <p>Form fundamentals</p><br>
-        <br>
-        <p>Customer Info</p>
-        <br>
-        <label for="name">Name:</label> <input type="text" autocomplete="name" autofocus placeholder="Enter your name" id="name"><br>
-        <br>
-        <label for="tel">Telephone:</label> <input type="tel" autocomplete="tel" placeholder="Pattern 1-234-567-8910" id="tel"><br>
-        <br>
-        <label for="email">Email address:</label> <input type="text" autocomplete="email" placeholder="Enter your email address" id="email"><br>
-        <br>
-        <p>Books</p><br>
-        Quantity (maximum 5) <input type="number" name="quantity" min="1" max="5"><br>
-        <br>
-        <input type="submit" value="Wyślij">
-    </form>
+    <div>
+        <form action="http://formspree.io/makenzen@gmail.com" method="post">
+            <p>A Simple Form</p><br>
+            <p>Form Fundamentals</p><br>
+            <br>
+            <fieldset>
+                <legend>Customer Info</legend><br>
+                <br>
+                <label for="name">Name:</label> <input type="text" autocomplete="name" autofocus placeholder="Enter your name" id="name" required><br>
+                <br>
+                <label for="tel">Telephone:</label> <input type="tel" autocomplete="tel" placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{4}" id="tel" required><br>
+                <br>
+                <label for="email">Email address:</label> <input type="text" autocomplete="email" placeholder="Enter your email address" id="email" required><br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Books</legend><br> Quantity (maximum 5) <input type="number" name="quantity" min="1" max="5"><br>
+                <br>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 
 </html>
