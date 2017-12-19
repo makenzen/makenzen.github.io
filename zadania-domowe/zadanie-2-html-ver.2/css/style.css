@@ -1,0 +1,19 @@
+form {
+    background-color:gray;
+    width: 550px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+fieldset {
+    width: 500px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="text"] {
+    width: 170px;
+}

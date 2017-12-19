@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>A simple form</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <form action="http://formspree.io/makenzen@gmail.com" method="post">
+            <p>A Simple Form</p><br>
+            <p>Form Fundamentals</p><br>
+            <br>
+            <fieldset>
+                <legend>Customer Info</legend><br>
+                <br>
+                <label for="name">Name:</label> <input type="text" autocomplete="name" autofocus placeholder="Enter your name" id="name" required><br>
+                <br>
+                <label for="tel">Telephone:</label> <input type="tel" autocomplete="tel" placeholder="Pattern 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required><br>
+                <br>
+                <label for="email">Email address:</label> <input type="text" autocomplete="email" placeholder="Enter your email address" id="email" required><br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Books</legend><br> <input type="text"> Quantity (maximum 5) <input type="number" name="quantity" min="1" max="5"><br>
+                <br>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
