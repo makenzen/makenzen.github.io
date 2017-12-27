@@ -19,13 +19,15 @@ body {
         height: 100%;
         width: 100%;
     }
-}
+
 
 .header-caption {
     position: absolute;
     font-size: 20px;
     top: 40%;
     left: 5%;
+    }
+    
 }
 
 .header-caption span {
