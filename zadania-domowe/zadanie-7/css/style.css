@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* style dot. menu nawigacyjnego */
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    background-color: darkblue;
+    right: 0;
+    top: 0;
+    bottom: 80%;
+}
+
+#main-nav:after {
+    content: "";
+    position: absolute;
+    left: 0; 
+    bottom: 0; 
+    width: 0; 
+    height: 0;
+    border-bottom: 80px solid #fff;
+    border-left: 683px solid transparent;
+    border-right: 683px solid transparent;
+}
+
+#main-nav:hover {
+    transition: all 0.3s ease-in;
+    background-color: #556887;
+}
+
+
+/* style dot. listy linków */
+
+#main-nav > .links-left > ul > li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+    margin-left: 20px; 
+}
+
+#main-nav > .links-right > ul > li {
+    float: right;
+    list-style: none;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+/* linki lewe */
+
+#main-nav > .links-left > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-nav > .links-left > ul > li > a:hover {
+    color: silver;
+    text-decoration: underline;
+}
+
+
+/* linki prawe */
+
+#main-nav > .links-right > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-nav > .links-right > ul > li > a:hover {
+    color: silver;
+    text-decoration: underline;
+}
+
+
+/* napis */
+
+h1 {
+    text-align: center;
+    padding: 30vh;
+    font-size: 3em;
+}
