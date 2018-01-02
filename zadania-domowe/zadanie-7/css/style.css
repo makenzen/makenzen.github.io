@@ -16,23 +16,15 @@ body {
     right: 0;
     top: 0;
     bottom: 80%;
+    clip-path: polygon(100% 0, 100% 85%, 50% 40%, 0 85%, 0 0);
 }
 
-#main-nav:after {
-    content: "";
-    position: absolute;
-    left: 0; 
-    bottom: 0; 
-    width: 0; 
-    height: 0;
-    border-bottom: 80px solid #fff;
-    border-left: 683px solid transparent;
-    border-right: 683px solid transparent;
-}
+
 
 #main-nav:hover {
     transition: all 0.3s ease-in;
     background-color: #556887;
+    clip-path: polygon(100% 0, 100% 90%, 50% 50%, 0 90%, 0 0);
 }
 
 
@@ -42,7 +34,7 @@ body {
     float: left;
     list-style: none;
     padding: 20px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 #main-nav > .links-right > ul > li {
