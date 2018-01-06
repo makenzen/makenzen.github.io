@@ -52,24 +52,44 @@ body {
 /* ustawienia koszyka */
 
 
-.koszyk {
+#produkt1 .koszyk {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+#produkt2 .koszyk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+#produkt3 .koszyk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
+#produkt4 .koszyk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 /* RWD */
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	
 	.produkty {
 		width: 100%;
 	}
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
 	
 	.produkty {
 		width: 49%;
@@ -78,4 +98,3 @@ body {
 }
 
 
-}
