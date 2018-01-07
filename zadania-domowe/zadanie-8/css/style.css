@@ -52,24 +52,30 @@ footer {
 @media screen and (min-width: 992px) {
 
     .container {
-
+flex-flow: wrap;
         
     }
 
     .text {
-        order: 2;
+        order: 3;
     }
 
     .aside-left {
-        order: 1;
+        order: 2;
     }
 
     .aside-right {
-        order: 3;
+        order: 4;
     }
     
     .header {
         width: 100%;
+        order: 1;
+    }
+    
+    .footer {
+        width: 100%;
+        order: 5;
     }
 
 }
