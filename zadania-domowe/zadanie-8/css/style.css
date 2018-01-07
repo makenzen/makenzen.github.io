@@ -23,20 +23,21 @@ header {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    height: 30vh;
 }
 
 .aside-left {
     background-color: green;
     color: #fff;
     text-align: center;
-    padding-bottom: 20%;
+    height: 30vh;
 }
 
 .aside-right {
     background-color: pink;
     color: #fff;
     text-align: center;
-    padding-bottom: 20%;
+    height: 30vh;
 }
 
 footer {
@@ -52,32 +53,10 @@ footer {
 @media screen and (min-width: 992px) {
 
     .container {
-flex-flow: wrap;
-        
+flex-flow: row wrap; 
     }
 
-    .text {
-        order: 3;
-    }
-
-    .aside-left {
-        order: 2;
-    }
-
-    .aside-right {
-        order: 4;
-    }
     
-    .header {
-        width: 100%;
-        order: 1;
-    }
-    
-    .footer {
-        width: 100%;
-        order: 5;
-    }
-
 }
 
 @media (max-width: 768px) {
