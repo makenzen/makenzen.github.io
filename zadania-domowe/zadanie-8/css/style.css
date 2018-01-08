@@ -3,12 +3,6 @@ body {
     padding: 0;
 }
 
-.container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-}
 
 header {
     background-color: red;
@@ -19,7 +13,7 @@ header {
 }
 
 .text {
-    background-color: aqua;
+    background-color: skyblue;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -50,17 +44,58 @@ footer {
 
 /* RWD */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
 
     .container {
-flex-flow: row wrap; 
+        flex-flow: row wrap;
+
     }
 
-    
+    main {
+        display: flex;
+    }
+
+    .aside-left {
+        order: 1;
+        width: 20%;
+        height: 40vh;
+    }
+
+    .text {
+        order: 2;
+        width: 60%;
+        height: 40vh;
+    }
+
+    .aside-right {
+        order: 3;
+        width: 20%;
+        height: 40vh;
+
+    }
 }
 
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
+    
+/*  SKĄD SIĘ WZIĘŁA TA DZIURA MIĘDZY HEADEREM A RESZTĄ?  */
+
+    .aside-left {
+        order: 1;
+    }
+    .text {
+        order: 2;
+    }
+    .aside-right {
+        order: 3;
+    }
+    .footer {
+        order: 4;
     }
 }
+
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    
+/*  NIE WIEM JAK TO ZROBIĆ, PIERDZIELĘ TO  */
+}
+
