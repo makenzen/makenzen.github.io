@@ -75,9 +75,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-    
-/*  SKĄD SIĘ WZIĘŁA TA DZIURA MIĘDZY HEADEREM A RESZTĄ?  */
+@media screen and (max-width: 768px) {
 
     .aside-left {
         order: 1;
@@ -96,6 +94,35 @@ footer {
 
 @media screen and (min-width:769px) and (max-width:992px) {
     
-/*  NIE WIEM JAK TO ZROBIĆ, PIERDZIELĘ TO  */
+     .container {
+        flex-flow: wrap;
+
+    }
+
+    main {
+        display: flex wrap;
+    }
+    
+    .text {
+        order: 1;
+        width: 60%;
+        height: 40vh;
+    }
+    
+    .aside-right {
+        order: 2;
+        width: 40%;
+        height: 40vh;
+    }
+    
+    .aside-left {
+        order: 3;
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .footer {
+        order: 4;
+    }
 }
 
