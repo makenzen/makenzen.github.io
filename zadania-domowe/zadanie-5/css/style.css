@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,8 +14,8 @@ body {
     width: 30%;
     margin: 30px;
     margin-bottom: 30px;
-    
-} 
+
+}
 
 #produkt1 {
     background-image: url("../produkty/product-1.jpg");
@@ -24,7 +24,7 @@ body {
 #produkt2 {
     background-image: url(../produkty/product-2.jpg);
 }
-    
+
 #produkt3 {
     background-image: url(../produkty/product-3.jpg);
 }
@@ -35,7 +35,6 @@ body {
 
 
 /* ustawienia masek */
-
 
 .item-mask {
     background-color: #ff6f00;
@@ -51,29 +50,7 @@ body {
 
 /* ustawienia koszyka */
 
-
-#produkt1 .koszyk {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#produkt2 .koszyk {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#produkt3 .koszyk {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#produkt4 .koszyk {
+.koszyk {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -83,18 +60,25 @@ body {
 
 /* RWD */
 
-@media (max-width: 480px) {
-	
-	.produkty {
-		width: 100%;
-	}
 
-@media (max-width: 992px) {
-	
-	.produkty {
-		width: 49%;
-	}
+@media screen and (min-width:993px) {
+    .produkty {
+        width: 40%;
+    }
+}
 
+
+@media screen and (min-width:481px) and (max-width:992px) {
+    .produkty {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .produkty {
+        width: 90%;
+    }
 }
 
 
