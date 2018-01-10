@@ -51,7 +51,13 @@ body {
 /* ustawienia koszyka */
 
 .koszyk {
-    position: absolute;
+    
+    font-size:35px;
+    
+}
+
+.koszyk a {
+    color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
