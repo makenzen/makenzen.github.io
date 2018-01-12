@@ -1,0 +1,37 @@
+.container {
+    background-image: url(../img/4-jezioro.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.jezioro h1 {
+    color: #fff;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 5%;
+    width: 47%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -70%);
+    padding: 15px;
+}
+
+
+
+
+.jezioro h1:hover {
+    color: #fff;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+
+    transition: all 1s ease-in-out;
+}
