@@ -27,25 +27,18 @@ body {
     clip-path: polygon(100% 0, 100% 90%, 50% 50%, 0 90%, 0 0);
 }
 
-
-/* pierwotne żałosne style dot. listy linków */
-
-/*
-#main-nav > .links-left > ul {
-    display: inline-block;
-    padding-left: 20px;
-}
-
-#main-nav > .links-right > ul {
-    display: inline-block;
-    padding-right: 20px;
-}
-*/
+/* linki */
 
 #main-nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+#main-nav ul li a:hover {
+    text-decoration: underline;
+    color: silver;
+}
+
 
 #main-nav ul {
 
@@ -88,31 +81,6 @@ body {
     margin-left: 40px;
 }
 
-
-/* linki lewe */
-
-#main-nav > .links-left > ul > li > a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#main-nav > .links-left > ul > li > a:hover {
-    color: silver;
-    text-decoration: underline;
-}
-
-
-/* linki prawe */
-
-#main-nav > .links-right > ul > li > a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#main-nav > .links-right > ul > li > a:hover {
-    color: silver;
-    text-decoration: underline;
-}
 
 
 /* napis */
