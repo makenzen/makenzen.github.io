@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Fioletowe menu nawigacyjne */
+
+#main-nav {
+    background-color: #7f3a91;
+    color: #fff;
+/*    position: fixed;*/
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+}
+
+label, input[type="checkbox"] {
+    display: none;
+}
+
+#main-nav > ul {
+    margin: 0;
+/*    float: right; nie wiem, czy można użyć floatu do dociągania menu do prawej */
+    padding-left: 45vw;
+}
+
+#main-nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    padding: 30px 30px;
+}
+
+#main-nav > ul > li > a {
+color: #fff;
+text-decoration: none;
+font-weight: 300;
+}
+
+/* Fioletowe pole */
+
+#main-header {
+    background-color: #7f3a91;
+    position: relative;
+}
+
+.main-header-content {
+    padding: 25vh;
+/*    text-align: center;*/
+}
+
+.main-header-content h1 {
+    color: #fff;
+    line-height: 15px;
+}
+
+#main-header .button {
+    
+}
+
+.button {
+    position: absolute;
+    background-color: #ff8c1a;
+    height: 50px;
+    width: 200px;
+    padding: 17px;
+    border-radius: 5px;
+    text-align: center;
+    top: 65%;
+    left: 43%;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Bladoniebieskie pole */
+
+#our-team {
+    position: relative;
+    background-color: #e6f2ff;
+    margin: 0;
+}
+
+#our-team h2:nth-child(1), p:nth-child(2) {
+    text-align: center;
+}
+
+#our-team .container {
+	width: 100%;
+	max-width: 1000px;
+	text-align: center;
+}
+
+.radius-image {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.radius-image img {
+	object-fit: cover;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.radius-small-image {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.radius-small-image img {
+	object-fit: cover;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
