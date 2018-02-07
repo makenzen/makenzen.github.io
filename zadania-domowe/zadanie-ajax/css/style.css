@@ -1,0 +1,18 @@
+body {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border-color: orangered;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
