@@ -1,0 +1,19 @@
+#formularz {
+    position: relative;
+    background-color: darkslategray;
+    width: 290px;
+    height: 350px;
+    color: #fff;
+}
+
+form {
+    padding: 30px;
+}
+
+form input[type="number"] {
+    width: 215px;
+}
+
+form select {
+    width: 215px;
+}
