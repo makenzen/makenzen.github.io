@@ -19,11 +19,13 @@ function oblicz() {
     var oprocentowanie = document.getElementById("oprocentowanie").value / 100;
     var podatek;
     if (document.getElementById('podatek').checked) {
+        event.preventDefault();
         podatek = true;
     } else {
+        event.preventDefault();
         podatek = false;
     }
-
+    
     
     var wynik = obliczZysk(wplata, liczbaLat, okresKapitalizacji, oprocentowanie, podatek);
     document.getElementById("wynik").innerHTML = wynik;
