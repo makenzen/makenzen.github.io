@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+#box {
+    margin: 0 auto;
+}
+
+#kontener {
+    display: inline-block;
+    position: relative;
+    height: 260px;
+    width: 260px;
+/*
+    background-color: #fff;
+    border: 1px solid #000;
+*/
+    margin: 20px;
+}
+
+p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.podpis {
+    font-weight: 300;
+}
+
+.dodatek {
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #000;
+    height: 200px;
+    width: 200px;
+    left: 12%;
+}
+
+.strona {
+    background-color: gray;
+    position: absolute;
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+}
+
+
+.dwa {
+    top: 0;
+    right: 0;
+}
+
+.trzy {
+    left: 0;
+    bottom: 0;
+}
+
+.cztery {
+    bottom: 0;
+    right: 0;
+}
