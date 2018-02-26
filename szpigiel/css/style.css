@@ -15,7 +15,7 @@ body {
     position: relative;
     height: 260px;
     width: 260px;
-/*
+    /*
     background-color: #fff;
     border: 1px solid #000;
 */
@@ -27,7 +27,8 @@ p {
     text-align: center;
 }
 
-.podpis {
+.podpis,
+.instr {
     font-weight: 300;
 }
 
@@ -47,6 +48,7 @@ p {
     border: 1px solid #000;
     height: 100px;
     width: 100px;
+    font-size: 30px;
 }
 
 
@@ -64,3 +66,4 @@ p {
     bottom: 0;
     right: 0;
 }
+
